@@ -17,12 +17,3 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
-
-jobs:  
-- deployment: VMDeploy
-  displayName: Web deploy
-  environment:
-    name:  Ubuntu_Runner
-    resourceType: VirtualMachine
-    tags: web1 # Update or remove value to match your tag
-  strategy:
