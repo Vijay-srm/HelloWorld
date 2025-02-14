@@ -27,8 +27,5 @@ jobs:
         run: |
           dir 
           hostname
-          echo "GITHUB_WORKSPACE : ${GITHUB_WORKSPACE}"
-         
-          echo "PATH : $PATH"
-
-         # go --version
+          #echo "GITHUB_WORKSPACE : ${GITHUB_WORKSPACE}"
+          #echo "PATH : $PATH"
